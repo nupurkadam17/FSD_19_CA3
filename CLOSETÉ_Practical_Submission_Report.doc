@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+  <meta charset="utf-8">
+  <title>CLOSETÉ — Practical Submission Report</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
+  <style>
+    body { font-family: 'Calibri', 'Segoe UI', Arial, sans-serif; font-size: 11pt; line-height: 1.5; color: #111; margin: 40px; }
+    h1 { font-family: 'Georgia', serif; font-size: 20pt; color: #0A0A0A; border-bottom: 2px solid #0A0A0A; padding-bottom: 6px; margin-top: 28px; }
+    h2 { font-family: 'Georgia', serif; font-size: 15pt; color: #222; margin-top: 20px; border-bottom: 1px solid #CCC; padding-bottom: 4px; }
+    h3 { font-size: 12pt; color: #333; margin-top: 14px; }
+    .hero-banner { background: #0A0A0A; color: #FFF; padding: 24px; text-align: center; margin-bottom: 24px; }
+    .hero-banner h1 { color: #FFF; border: none; font-size: 24pt; margin: 0 0 8px 0; }
+    .hero-banner p { color: #D8D8D5; margin: 0; font-size: 11pt; }
+    .github-box { background: #1C1C1C; color: #FFF; padding: 14px 20px; margin: 20px 0; border-left: 4px solid #C5A880; font-size: 11pt; }
+    .github-box a { color: #C5A880; font-weight: bold; text-decoration: none; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 10pt; }
+    th { background: #292929; color: #FFF; padding: 10px; border: 1px solid #444; text-align: left; }
+    td { padding: 9px; border: 1px solid #D8D8D5; vertical-align: top; }
+    tr:nth-child(even) { background: #F9F9F8; }
+    pre { background: #F4F4F4; border: 1px solid #DDD; padding: 12px; font-family: 'Consolas', monospace; font-size: 9pt; overflow-x: auto; line-height: 1.35; }
+    .screenshot-card { border: 2px dashed #AAA; background: #FAFAFA; padding: 16px; margin: 16px 0; text-align: center; }
+    .screenshot-card h4 { margin: 0 0 6px 0; color: #0A0A0A; font-size: 11pt; text-align: left; }
+    .screenshot-card p { font-size: 9.5pt; color: #666; margin: 0 0 14px 0; text-align: left; }
+    .placeholder-badge { display: inline-block; padding: 8px 16px; background: #EFEFEF; border: 1px solid #CCC; color: #888; font-weight: bold; font-size: 9pt; text-transform: uppercase; }
+    .viva-q { font-weight: bold; color: #0A0A0A; margin-top: 14px; font-size: 10.5pt; }
+    .viva-a { margin-left: 12px; color: #333; margin-bottom: 12px; font-size: 10pt; }
+  </style>
+</head>
+<body>
+
+  <div class="hero-banner">
+    <h1>CLOSETÉ</h1>
+    <p>PREMIUM WOMEN'S FASHION E-COMMERCE PLATFORM</p>
+    <p style="margin-top: 6px; font-size: 9.5pt; color: #C5A880; letter-spacing: 0.15em;">"STYLE IS PERSONAL. MAKE IT YOURS."</p>
+  </div>
+
+  <table style="margin-bottom: 24px;">
+    <tr>
+      <td><strong>Candidate Name:</strong> Nupur Kadam</td>
+      <td><strong>Roll No:</strong> 19</td>
+      <td><strong>Subject:</strong> Full Stack Development (CA3)</td>
+    </tr>
+    <tr>
+      <td><strong>Course:</strong> B.E. AI & DS (Semester V)</td>
+      <td><strong>Topic:</strong> Online Shopping</td>
+      <td><strong>Submission Date:</strong> November 2026</td>
+    </tr>
+  </table>
+
+  <div class="github-box">
+    <strong>PRIVATE GITHUB REPOSITORY LINK:</strong><br>
+    <a href="https://github.com/nupurkadam17/FSD_19_CA3" target="_blank">https://github.com/nupurkadam17/FSD_19_CA3</a><br>
+    <span style="font-size: 9pt; color: #BBB;">All source code, test suites, and project configurations are pushed and preserved in this private repository.</span>
+  </div>
+
+  <h1>1. Executive Summary & Architecture Overview</h1>
+  <p>CLOSETÉ was built to independently satisfy all five assigned academic programming exercises while delivering a luxury fashion brand experience with an editorial monochrome aesthetic (#0A0A0A, #F7F6F2, #FFFFFF, #292929, #D8D8D5).</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Program</th>
+        <th>Paradigm & Technology</th>
+        <th>Port</th>
+        <th>Core Academic Requirements Demonstrated</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Program 1</strong></td>
+        <td>HTML5 / CSS3 / Vanilla JS (ES6+)</td>
+        <td>5000</td>
+        <td>DOM manipulation, Fetch API GET & POST, input regex validation, dynamic rendering.</td>
+      </tr>
+      <tr>
+        <td><strong>Program 2</strong></td>
+        <td>React 18 / Vite / React Router v6</td>
+        <td>3000</td>
+        <td>Functional components, useState, useEffect, controlled product form, SPA routing.</td>
+      </tr>
+      <tr>
+        <td><strong>Program 3</strong></td>
+        <td>Native Node.js (Zero Express)</td>
+        <td>5001</td>
+        <td>Built-in http, fs/promises, EventEmitter stock alerts, Writable Stream audit logging.</td>
+      </tr>
+      <tr>
+        <td><strong>Program 4</strong></td>
+        <td>Express.js Secure REST API</td>
+        <td>5002</td>
+        <td>CRUD routes, custom request logger, input validation middleware, JWT auth, bcryptjs, RBAC.</td>
+      </tr>
+      <tr>
+        <td><strong>Program 5</strong></td>
+        <td>Full Stack MERN Platform</td>
+        <td>5005 & 5173</td>
+        <td>React client + Express API + MongoDB Mongoose, CORS, Axios interceptors, Admin CRUD.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>2. Program 1: Browser-Based Online Fashion Shopping Interface</h1>
+  <h3>Aim:</h3>
+  <p>To develop a browser-based fashion shopping interface using HTML5, modern CSS3, and vanilla JavaScript (ES6+), demonstrating DOM manipulation, event handling, product search, multi-faceted filtering, regex validation, and asynchronous Fetch API GET and POST methods.</p>
+
+  <h3>Execution Command:</h3>
+  <pre>node Program_1_Vanilla_JS/server.js
+# Access in browser at: http://localhost:5000</pre>
+
+  <h3>Terminal Execution & Verification Output:</h3>
+  <pre>[TEST 1] GET /api/products -> 200 OK (Catalog Count: 17 items)
+[TEST 2] POST /api/products -> 201 Created (Created ID: closete-0763)
+[TEST 3] POST Validation Error -> 400 Bad Request ("name, price, and category required")
+[TEST 4] Static HTML Serving -> 200 OK
+✓ ALL PROGRAM 1 TESTS PASSED (100%)</pre>
+
+  <div class="screenshot-card">
+    <h4>Figure 1.1: Program 1 — Storefront Catalog & Hero Section (Port 5000)</h4>
+    <p>Displays the responsive navigation bar, editorial hero banner, real-time search input, category filter chips (Dresses, Tops, Outerwear), and dynamic product grid cards.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5000 Here ]</div>
+  </div>
+
+  <div class="screenshot-card">
+    <h4>Figure 1.2: Program 1 — Add Piece (POST) Modal & Checkout Regex Validation</h4>
+    <p>Displays modal submitting a new garment record to the native Node server via Fetch POST and regex input validation for email, Indian mobile number, and PIN code.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of Add Piece Modal / Checkout Dialog Here ]</div>
+  </div>
+
+  <h1>3. Program 2: React-Based Online Fashion Shopping Application</h1>
+  <h3>Aim:</h3>
+  <p>To construct a single-page e-commerce application using React 18, demonstrating functional components, JSX, props passing, hooks (useState, useEffect, useMemo), controlled form validation, and multi-route navigation using React Router v6.</p>
+
+  <h3>Execution Command:</h3>
+  <pre>cd Program_2_React
+npm run dev
+# Access in browser at: http://localhost:3000</pre>
+
+  <h3>Verification & Vite Build Output:</h3>
+  <pre>✓ useState Hooks Utilized: true
+✓ useEffect Lifecycle Hooks Utilized: true
+✓ useMemo Optimization Utilized: true
+✓ React Router v6 Configured: true
+> vite build
+✓ 49 modules transformed in 910ms (0 errors, 0 warnings)</pre>
+
+  <div class="screenshot-card">
+    <h4>Figure 2.1: Program 2 — React 18 Storefront & Multi-Page Navigation (Port 3000)</h4>
+    <p>Displays React state-driven catalog, filter sidebar, wishlist toggle, and React Router navigation links (/shop, /product/:id).</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:3000 Here ]</div>
+  </div>
+
+  <div class="screenshot-card">
+    <h4>Figure 2.2: Program 2 — Controlled Product Entry Form (useState & useEffect)</h4>
+    <p>Displays controlled form inputs with real-time character-length validation and automatic route redirection using the useNavigate() hook.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:3000/#/add-product Here ]</div>
+  </div>
+
+  <h1>4. Program 3: Node.js Inventory Utility (Zero Express)</h1>
+  <h3>Aim:</h3>
+  <p>To implement a fashion inventory management utility using only Node.js core built-in modules (http, fs, path, events, stream), strictly avoiding Express or third-party web frameworks.</p>
+
+  <h3>Execution Command:</h3>
+  <pre>node Program_3_Node_HTTP/server.js
+# Access in browser at: http://localhost:5001</pre>
+
+  <h3>Verification & Audit Stream Output:</h3>
+  <pre>[TEST 1] GET /api/inventory -> 200 OK (Total Items: 8)
+[TEST 2] GET /api/inventory/low-stock -> 200 OK (Low Stock Count: 3)
+[TEST 3] POST /api/inventory -> 201 Created (Created ID: INV-4250)
+[TEST 4] PUT /api/inventory/:id/stock -> 200 OK (Emitted lowStockAlert)
+[TEST 5] Writable Stream Audit File -> Verified (logs/inventory_audit.log)
+[TEST 6] DELETE /api/inventory/:id -> 200 OK
+✓ ALL PROGRAM 3 AUTOMATED TESTS PASSED (7/7)!</pre>
+
+  <div class="screenshot-card">
+    <h4>Figure 3.1: Program 3 — Native Node Server Dashboard & Audit Stream Log (Port 5001)</h4>
+    <p>Displays root HTML dashboard on port 5001 and append-only transaction events in logs/inventory_audit.log.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5001 Here ]</div>
+  </div>
+
+  <h1>5. Program 4: Secure Express.js REST API</h1>
+  <h3>Aim:</h3>
+  <p>To develop a secure RESTful API for an online fashion boutique using Express.js, featuring CRUD operations, custom request logging middleware, schema input validation, centralized error handling, JWT authentication, and bcryptjs password hashing.</p>
+
+  <h3>Execution Command:</h3>
+  <pre>node Program_4_Express_API/server.js
+# Access in browser at: http://localhost:5002</pre>
+
+  <h3>Verification & Route Security Output:</h3>
+  <pre>[TEST 1] Public GET /api/v1/products -> 200 OK
+[TEST 2] POST /api/v1/auth/register -> 201 Created (Password hashed with bcrypt)
+[TEST 3] POST /api/v1/auth/login -> 200 OK (Bearer JWT issued)
+[TEST 4] GET /api/v1/auth/profile with Bearer Token -> 200 OK
+[TEST 5] GET /api/v1/auth/profile without Token -> 401 Unauthorized
+[TEST 6] POST /api/v1/products Protected -> 201 Created
+[TEST 7] Malformed POST Validation -> 400 Bad Request
+[TEST 8] Customer DELETE Attempt -> 403 Forbidden (RBAC Verified)
+[TEST 9] Admin DELETE Execution -> 200 OK
+✓ ALL PROGRAM 4 SECURE REST API TESTS PASSED (11/11)!</pre>
+
+  <div class="screenshot-card">
+    <h4>Figure 4.1: Program 4 — Express REST API Directory & RBAC Security (Port 5002)</h4>
+    <p>Displays interactive endpoint status, JWT Bearer authentication headers, and role-based route guards.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5002 Here ]</div>
+  </div>
+
+  <h1>6. Program 5: Full Stack MERN Platform Integration</h1>
+  <h3>Aim:</h3>
+  <p>To engineer an integrated Full Stack MERN fashion platform uniting React 18, Express.js, and MongoDB via Mongoose, with persistent data modeling, CORS, Axios interceptors, Context API state management, and deployment manifests for Vercel and Render.</p>
+
+  <h3>Execution Commands:</h3>
+  <pre># Terminal 1 (Backend API):
+node Program_5_FullStack/backend/server.js  # Runs on http://127.0.0.1:5005
+
+# Terminal 2 (React Client):
+cd Program_5_FullStack/frontend && npm run dev  # Runs on http://localhost:5173</pre>
+
+  <h3>Verification & Build Output:</h3>
+  <pre>[TEST 1] GET /api/health -> 200 OK ("CLOSETÉ Full Stack MERN Platform")
+[TEST 2] GET /api/products -> 200 OK
+[TEST 3] POST /api/auth/register -> 201 Created (Customer JWT Issued)
+[TEST 4] POST /api/products Protected -> 201 Created
+[TEST 5] POST /api/orders -> 201 Created
+✓ Vercel SPA Routing Configuration (vercel.json) Verified
+✓ Render Backend Deployment Manifest (render.yaml) Verified
+> vite build (Frontend)
+✓ 106 modules transformed in 1.15s (0 errors)</pre>
+
+  <div class="screenshot-card">
+    <h4>Figure 5.1: Program 5 — Full Stack MERN Storefront (Port 5173)</h4>
+    <p>Displays dynamic garments fetched from backend API via Axios request interceptor with JWT tokens.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5173 Here ]</div>
+  </div>
+
+  <div class="screenshot-card">
+    <h4>Figure 5.2: Program 5 — Backend REST API Status Dashboard (Port 5005)</h4>
+    <p>Displays Express + Mongoose server status, health check API, and direct API exploration links (resolved Cannot GET /).</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5005 Here ]</div>
+  </div>
+
+  <div class="screenshot-card">
+    <h4>Figure 5.3: Program 5 — Admin CRUD Atelier Dashboard</h4>
+    <p>Allows administrators to create, edit, and delete pieces live with real MongoDB persistence.</p>
+    <div class="placeholder-badge">[ Paste Screenshot of http://localhost:5173/admin/products Here ]</div>
+  </div>
+
+  <h1>7. University Viva Voce Examination Cheat Sheet</h1>
+  <div class="viva-q">Q1: What is the primary difference between Program 1 (Vanilla JS) and Program 2 (React)?</div>
+  <div class="viva-a">Program 1 uses imperative DOM manipulation (document.createElement) to manually alter elements in the browser tree. Program 2 uses React's declarative Virtual DOM model (UI = f(state)) where state updates trigger efficient reconciliation diffs.</div>
+
+  <div class="viva-q">Q2: How does Program 3 handle POST requests without Express?</div>
+  <div class="viva-a">The incoming request is a Readable Stream. We buffer binary chunks with req.on("data", chunk => ...) and parse the combined string into an object using JSON.parse() on req.on("end").</div>
+
+  <div class="viva-q">Q3: Why use bcrypt over simple SHA-256 for password security?</div>
+  <div class="viva-a">SHA-256 is fast and susceptible to GPU brute-forcing and precomputed rainbow tables. bcrypt incorporates an adaptive work factor (salt rounds = 10) and random salting, making brute-force attacks computationally infeasible.</div>
+
+  <div class="viva-q">Q4: What role does JWT play in Program 4 and 5?</div>
+  <div class="viva-a">JWT enables stateless authentication. After login, the server issues a signed cryptographic token that the client transmits in the Authorization: Bearer &lt;token&gt; header, eliminating the need for server-side session stores.</div>
+
+  <div class="viva-q">Q5: Why is CORS necessary in Program 5?</div>
+  <div class="viva-a">The React frontend runs on port 5173 while the Express backend runs on port 5005. Because the origins differ, browsers block cross-origin requests unless the server sends Access-Control-Allow-Origin headers via the cors() middleware.</div>
+
+  <br><hr>
+  <p style="text-align: center; color: #666; font-size: 9pt;">
+    <strong>CLOSETÉ ATELIER</strong> &bull; B.E. AI & DS (Semester V) &bull; Full Stack Development CA3<br>
+    GitHub: <a href="https://github.com/nupurkadam17/FSD_19_CA3">https://github.com/nupurkadam17/FSD_19_CA3</a>
+  </p>
+
+</body>
+</html>
