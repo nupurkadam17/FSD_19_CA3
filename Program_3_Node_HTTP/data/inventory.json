@@ -1,0 +1,134 @@
+[
+  {
+    "id": "INV-4462",
+    "sku": "CLO-SKI-462",
+    "name": "Minimalist Crepe Slip Skirt",
+    "category": "Skirts",
+    "price": 4990,
+    "stock": 12,
+    "reorderLevel": 4,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "updatedAt": "2026-11-14T18:10:44.462Z"
+  },
+  {
+    "id": "INV-001",
+    "sku": "CLO-DRS-001",
+    "name": "L'Atelier Silk Slip Maxi Dress",
+    "category": "Dresses",
+    "price": 8990,
+    "stock": 14,
+    "reorderLevel": 5,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "supplier": "Milan Silk Atelier",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-002",
+    "sku": "CLO-OUT-002",
+    "name": "Sculpted Cashmere Blend Trench",
+    "category": "Outerwear",
+    "price": 14990,
+    "stock": 4,
+    "reorderLevel": 5,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "supplier": "Biella Wool Mills",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-003",
+    "sku": "CLO-SET-003",
+    "name": "Tailored Short & Blazer Co-ord Set",
+    "category": "Co-ord Sets",
+    "price": 11990,
+    "stock": 8,
+    "reorderLevel": 4,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "supplier": "Porto Tailoring Guild",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-004",
+    "sku": "CLO-SHT-004",
+    "name": "Oversized Crisp Poplin Asymmetric Shirt",
+    "category": "Shirts",
+    "price": 3990,
+    "stock": 22,
+    "reorderLevel": 6,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "supplier": "Cairo Cotton Weavers",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-005",
+    "sku": "CLO-TRS-005",
+    "name": "High-Waist Fluid Pleated Trousers",
+    "category": "Trousers",
+    "price": 4990,
+    "stock": 3,
+    "reorderLevel": 5,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "supplier": "Osaka Twill Corp",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-006",
+    "sku": "CLO-TOP-006",
+    "name": "Sculptural Halter Ribbed Knit Top",
+    "category": "Tops",
+    "price": 2990,
+    "stock": 19,
+    "reorderLevel": 6,
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "supplier": "Florence Knitworks",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  },
+  {
+    "id": "INV-007",
+    "sku": "CLO-ACC-007",
+    "name": "Curved Calfskin Crossbody Saddle Bag",
+    "category": "Accessories",
+    "price": 7990,
+    "stock": 2,
+    "reorderLevel": 3,
+    "sizes": [
+      "One Size"
+    ],
+    "supplier": "Tuscan Leather Guild",
+    "lastUpdated": "2026-11-14T10:00:00.000Z"
+  }
+]

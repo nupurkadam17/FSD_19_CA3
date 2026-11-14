@@ -1,0 +1,393 @@
+[
+  {
+    "id": "closete-0763",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-6626",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-3780",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-7588",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-8630",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-6990",
+    "name": "Bespoke Mulberry Silk Wrap Gown",
+    "description": "Floor-sweeping silk wrap gown with self-tie sash and flowing hem.",
+    "price": 13990,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 5
+  },
+  {
+    "id": "closete-001",
+    "name": "L'Atelier Silk Slip Maxi Dress",
+    "description": "Crafted from 100% heavyweight mulberry silk with a bias cut that drapes effortlessly. Features delicate spaghetti straps and a soft cowl neckline designed for evening elegance.",
+    "price": 8990,
+    "category": "Dresses",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Noir",
+      "Champagne",
+      "Espresso"
+    ],
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+    "stock": 12,
+    "isNew": true,
+    "isTrending": true,
+    "rating": 4.9
+  },
+  {
+    "id": "closete-002",
+    "name": "Sculpted Cashmere Blend Trench",
+    "description": "An architectural outerwear silhouette tailored from a luxurious double-faced Italian wool-cashmere blend. Features exaggerated storm flaps, a structured waist belt, and horn buttons.",
+    "price": 14990,
+    "category": "Outerwear",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Camel",
+      "Charcoal",
+      "Oatmeal"
+    ],
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80",
+    "stock": 6,
+    "isNew": true,
+    "isTrending": true,
+    "rating": 5
+  },
+  {
+    "id": "closete-003",
+    "name": "Tailored Short & Blazer Co-ord Set",
+    "description": "A refined two-piece ensemble comprising a single-breasted relaxed blazer and matching high-waisted pleated bermuda shorts crafted from structured virgin wool blend.",
+    "price": 11990,
+    "category": "Co-ord Sets",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Sage Grey",
+      "Black",
+      "Sandstone"
+    ],
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "stock": 8,
+    "isNew": false,
+    "isTrending": true,
+    "rating": 4.8
+  },
+  {
+    "id": "closete-004",
+    "name": "Oversized Crisp Poplin Asymmetric Shirt",
+    "description": "Constructed from 100% organic long-staple Egyptian cotton poplin. Features dropped shoulders, mother-of-pearl buttons, and an elongated split hemline for fluid modern styling.",
+    "price": 3990,
+    "category": "Shirts",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Pure White",
+      "Sky Stripe",
+      "Black"
+    ],
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+    "stock": 18,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 4.7
+  },
+  {
+    "id": "closete-005",
+    "name": "High-Waist Fluid Pleated Trousers",
+    "description": "Cut in a wide-leg fluid profile from Japanese gabardine twill with sharp pressed pleats, discreet side pockets, and an internal adjustable tab for a bespoke waist fit.",
+    "price": 4990,
+    "category": "Trousers",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Charcoal",
+      "Ecru",
+      "Taupe"
+    ],
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+    "stock": 15,
+    "isNew": false,
+    "isTrending": true,
+    "rating": 4.9
+  },
+  {
+    "id": "closete-006",
+    "name": "Sculptural Halter Ribbed Knit Top",
+    "description": "Spun with fine extrafine merino wool and compact stretch yarn. Engineered with a crossover high neckline that sculpts the shoulders and a refined micro-rib finish.",
+    "price": 2990,
+    "category": "Tops",
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "colors": [
+      "Off White",
+      "Noir",
+      "Terracotta"
+    ],
+    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80",
+    "stock": 20,
+    "isNew": true,
+    "isTrending": false,
+    "rating": 4.6
+  },
+  {
+    "id": "closete-007",
+    "name": "Curved Calfskin Crossbody Saddle Bag",
+    "description": "Sculpted in Florence from full-grain vegetable-tanned Italian calf leather with brushed custom gold-plated hardware and a suede-lined interior compartment.",
+    "price": 7990,
+    "category": "Accessories",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Cognac",
+      "Noir",
+      "Forest Green"
+    ],
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+    "stock": 5,
+    "isNew": false,
+    "isTrending": true,
+    "rating": 5
+  },
+  {
+    "id": "closete-008",
+    "name": "Minimalist Pleated Linen Midi Dress",
+    "description": "Woven from French Normandy flax linen. Designed with a clean square neckline, concealed in-seam pockets, and an unlined breezy silhouette ideal for balmy afternoons.",
+    "price": 6490,
+    "category": "Dresses",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Natural Flax",
+      "Olive",
+      "Black"
+    ],
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
+    "stock": 9,
+    "isNew": false,
+    "isTrending": false,
+    "rating": 4.8
+  },
+  {
+    "id": "closete-009",
+    "name": "Structured Bouclé Cropped Jacket",
+    "description": "Featuring tactile wool-cotton bouclé weave with frayed edges, antique gold crested buttons, and a clean collarless neckline inspired by Parisian mid-century tailoring.",
+    "price": 9490,
+    "category": "Outerwear",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Cream / Noir Check",
+      "Solid Noir"
+    ],
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80",
+    "stock": 4,
+    "isNew": true,
+    "isTrending": true,
+    "rating": 4.9
+  },
+  {
+    "id": "closete-010",
+    "name": "Hammered Gold Statement Collar",
+    "description": "Hand-forged by master artisans with 18-karat gold vermeil over recycled brass. Form-fitting ergonomic curve with a subtle brushed satin patina.",
+    "price": 2490,
+    "category": "Accessories",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "18k Gold Vermeil"
+    ],
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+    "stock": 14,
+    "isNew": false,
+    "isTrending": false,
+    "rating": 4.7
+  },
+  {
+    "id": "closete-011",
+    "name": "Ribbed Knit Lounge Co-ord in Ivory",
+    "description": "A luxuriously soft knit ensemble featuring a wide-neck pullover sweater and matching relaxed straight-leg knit trousers knitted from eco-certified viscose-cotton yarn.",
+    "price": 5490,
+    "category": "Co-ord Sets",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Ivory",
+      "Heather Grey",
+      "Mocha"
+    ],
+    "image": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&w=800&q=80",
+    "stock": 11,
+    "isNew": true,
+    "isTrending": true,
+    "rating": 4.8
+  },
+  {
+    "id": "closete-012",
+    "name": "Tailored Straight Wool Slacks",
+    "description": "Classic mid-rise tailored trousers woven from Super 120s lightweight wool with a pressed crease, curtained waistband, and back welt pockets.",
+    "price": 5990,
+    "category": "Trousers",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Midnight Navy",
+      "Charcoal"
+    ],
+    "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?auto=format&fit=crop&w=800&q=80",
+    "stock": 7,
+    "isNew": false,
+    "isTrending": false,
+    "rating": 4.6
+  }
+]

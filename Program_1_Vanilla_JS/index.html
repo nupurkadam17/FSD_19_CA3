@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLOSETÉ — Luxury Women's Fashion (Program 1)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar">
+    COMPLIMENTARY WORLDWIDE DELIVERY ON ORDERS OVER ₹10,000 • NEW ARRIVALS LIVE
+  </aside>
+
+  <!-- Navigation Header -->
+  <header class="header-wrapper">
+    <div class="header-container">
+      <div class="header-actions">
+        <button type="button" class="btn-outline" id="btnOpenAddProduct">+ Add Piece (POST Demo)</button>
+      </div>
+      <a href="index.html" class="brand-logo">
+        <span class="brand-title">CLOSETÉ</span>
+        <span class="brand-sub">STYLE IS PERSONAL. MAKE IT YOURS.</span>
+      </a>
+      <div class="header-actions">
+        <button type="button" class="btn-primary" id="btnOpenCart">Bag (<span id="cartCount">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Editorial Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div>
+        <div class="hero-tag">AUTUMN / WINTER 2026 ATELIER</div>
+        <h1 class="hero-title">Contemporary Tailoring & Minimalist Elegance</h1>
+        <p class="hero-desc">Discover precision-cut silhouettes, mulberry silk wrap gowns, and structured bouclé jackets tailored for the modern woman.</p>
+        <a href="#catalog" class="btn-primary" style="text-decoration:none; display:inline-block;">Explore Collection</a>
+      </div>
+      <div>
+        <img class="hero-img" src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80" alt="CLOSETÉ Luxury Fashion Campaign">
+      </div>
+    </section>
+
+    <!-- Catalog Controls: Search, Filter Chips, Sort -->
+    <section class="catalog-controls" id="catalog">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search pieces (e.g. Silk, Jacket)...">
+      <div class="filter-chips" id="categoryChips">
+        <button class="chip active" data-category="All">All Pieces</button>
+        <button class="chip" data-category="Dresses">Dresses</button>
+        <button class="chip" data-category="Tops">Tops</button>
+        <button class="chip" data-category="Trousers">Trousers</button>
+        <button class="chip" data-category="Co-ord Sets">Co-ord Sets</button>
+        <button class="chip" data-category="Outerwear">Outerwear</button>
+      </div>
+      <select id="sortSelect" class="search-input" style="width: auto;">
+        <option value="featured">Featured Order</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+      </select>
+    </section>
+
+    <!-- Dynamic Product Catalog Grid -->
+    <section class="catalog-container">
+      <div class="product-grid" id="productGrid">
+        <!-- Rendered dynamically by js/dom.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal: Add New Product (Demonstrates HTTP POST & Validation) -->
+  <div class="modal-backdrop" id="addProductModal">
+    <div class="modal-box">
+      <h2 style="font-family: var(--font-serif); margin-bottom: 8px;">Add New Piece (HTTP POST)</h2>
+      <p style="color:#666; font-size:0.8rem; margin-bottom:20px;">Submits record to native server via Fetch POST.</p>
+      <form id="addProductForm" novalidate>
+        <div class="form-group">
+          <label>Garment Name</label>
+          <input type="text" id="prodName" class="form-control" placeholder="e.g. Mulberry Silk Slip Dress" required>
+        </div>
+        <div class="form-group">
+          <label>Category</label>
+          <select id="prodCategory" class="form-control" required>
+            <option value="">Select Category</option>
+            <option value="Dresses">Dresses</option>
+            <option value="Tops">Tops</option>
+            <option value="Trousers">Trousers</option>
+            <option value="Co-ord Sets">Co-ord Sets</option>
+            <option value="Outerwear">Outerwear</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Price in INR (₹)</label>
+          <input type="number" id="prodPrice" class="form-control" placeholder="e.g. 7990" min="100" required>
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea id="prodDesc" class="form-control" rows="3" placeholder="Fabric composition and fit details..." required></textarea>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 24px;">
+          <button type="button" class="btn-outline" id="btnCloseAddProduct">Cancel</button>
+          <button type="submit" class="btn-primary">Submit Piece (POST)</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-drawer-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3 style="font-family: var(--font-serif); letter-spacing: 0.1em;">Your Wardrobe Bag</h3>
+      <button type="button" class="btn-outline" id="btnCloseCart" style="padding: 4px 10px;">✕</button>
+    </div>
+    <div class="cart-body" id="cartItems">
+      <!-- Injected by js/dom.js -->
+    </div>
+    <div class="cart-footer">
+      <div style="display:flex; justify-content:space-between; margin-bottom: 16px; font-weight:700;">
+        <span>Estimated Total:</span>
+        <span id="cartTotal">₹0</span>
+      </div>
+      <button type="button" class="btn-primary" id="btnOpenCheckout" style="width: 100%;">Proceed to Order</button>
+    </div>
+  </aside>
+
+  <!-- Modal: Checkout Form (Demonstrates Regex Validation) -->
+  <div class="modal-backdrop" id="checkoutModal">
+    <div class="modal-box">
+      <h2 style="font-family: var(--font-serif); margin-bottom: 8px;">Order Finalization</h2>
+      <p style="color:#666; font-size:0.8rem; margin-bottom:20px;">Client information validation with regex.</p>
+      <form id="checkoutForm" novalidate>
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="custName" class="form-control" placeholder="First and Last Name" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="custEmail" class="form-control" placeholder="client@domain.com" required>
+        </div>
+        <div class="form-group">
+          <label>Mobile Number (Indian 10-digit)</label>
+          <input type="tel" id="custPhone" class="form-control" placeholder="9876543210" required>
+        </div>
+        <div class="form-group">
+          <label>Delivery PIN Code (6-digit)</label>
+          <input type="text" id="custPin" class="form-control" placeholder="400001" required>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 24px;">
+          <button type="button" class="btn-outline" id="btnCloseCheckout">Close</button>
+          <button type="submit" class="btn-primary">Confirm Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p style="letter-spacing: 0.15em; margin-bottom: 8px;">CLOSETÉ ATELIER &copy; 2026. All rights reserved.</p>
+    <p style="color:#777; font-size: 0.72rem;">Academic Submission: Full Stack Development (CA3) • B.E. AI & DS (Semester V)</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/api.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/dom.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
